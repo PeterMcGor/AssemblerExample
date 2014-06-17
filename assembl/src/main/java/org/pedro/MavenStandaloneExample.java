@@ -5,6 +5,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 import javax.swing.JFileChooser;
+import javax.swing.JOptionPane;
 
 import org.apache.commons.lang.WordUtils;  
 import org.apache.commons.io.FileUtils;  
@@ -23,7 +24,9 @@ public class MavenStandaloneExample {
             String fileContent = FileUtils.readFileToString(file);  
               
             System.out.println(WordUtils.capitalizeFully(fileContent));  
-            System.out.println("Tamañoooooo:  "+Files.size(Paths.get(file.getAbsolutePath())));
+            long s = Files.size(Paths.get(file.getAbsolutePath()));
+            System.out.println("Tamañoooooo:  "+s);
+            JOptionPane.showInputDialog(s);
             switch (file.getAbsolutePath()) {
             case "nada":
             break;

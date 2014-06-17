@@ -1,12 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">  
     <modelVersion>4.0.0</modelVersion>  
-    <groupId>com.autentia.tutoriales</groupId>  
+    <groupId>org.mierdas.varias</groupId>  
     <artifactId>maven_standalone_app_example</artifactId>  
     <packaging>jar</packaging>  
     <version>1.0-SNAPSHOT</version>  
     <name>maven_standalone_app_example</name>  
-    <url>http://www.adictosaltrabajo.com</url>  
+     
   
     <build>  
         <!-- El jar principal de la aplicación se llamará así -->  
@@ -55,9 +55,8 @@
                             las que desees) pongo estas a modo de ejemplo  
                         -->  
                         <manifestEntries>  
-                            <Autor>Carlos García Pérez</Autor>  
-                            <Empresa>Autentia Real Business Solutions</Empresa>  
-                            <url>http://www.autentia.com</url>  
+                            <Autor>Peter McGor</Autor>  
+                              
                         </manifestEntries>  
                     </archive>  
                 </configuration>  
